@@ -1,10 +1,11 @@
 {
   "name": "unique-digit-years",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Package for calculating unique-digit years within a range.",
-  "main": "index.js",
+  "main": "lib/unique-digit-years.js",
+  "bin": "app/app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app/app.js"
   },
   "author": "Preston West",
   "license": "MIT",
