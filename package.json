@@ -1,13 +1,18 @@
 {
   "name": "unique-digit-years",
   "version": "1.3.1",
-  "description": "Package for calculating unique-digit years within a range.",
+  "description": "Package for calculating unique-digit years within a range of years (inclusive).",
   "main": "lib/unique-digit-years.js",
-  "bin": "app/app.js",
+  "bin": {
+    "unique-digit-years": "app/app.js"
+  },
   "scripts": {
     "start": "node app/app.js"
   },
   "author": "Preston West",
   "license": "MIT",
-  "repository": "github:prestonmontewest/unique-digit-years"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prestonmontewest/unique-digit-years.git"
+  }
 }
